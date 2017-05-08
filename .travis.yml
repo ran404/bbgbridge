@@ -1,0 +1,18 @@
+language: python
+
+python:
+  - "3.4"
+  - "3.5"
+  - "3.6"
+
+install:
+  - pip install --upgrade pip
+  - pip install --upgrade setuptools wheel
+  - pip install --upgrade pytest pytest-cov codecov
+  - pip install --upgrade --index-url=https://bloomberg.bintray.com/pip/simple blpapi
+  - pip install --upgrade .
+
+script: py.test --cov=bbgbridge tests/
+
+after_success:
+  codecov

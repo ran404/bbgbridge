@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "load_type": "generic_price"
+  },
+  "result": [
+    {
+      "securityData": {
+        "security": "EVU5P 2000 Index",
+        "eidData": [],
+        "sequenceNumber": 120,
+        "fieldExceptions": [],
+        "fieldData": [
+          {
+            "fieldData": {
+              "date": "2015-08-20",
+              "PX_BID": 27.0,
+              "PX_MID": 27.5,
+              "PX_ASK": 28.0,
+              "PX_HIGH": 27.0,
+              "PX_LAST": 39.6,
+              "PX_SETTLE": 39.6
+            }
+          },
+          {
+            "fieldData": {
+              "date": "2015-08-21",
+              "PX_LAST": 73.2,
+              "PX_SETTLE": 73.2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "securityData": {
+        "security": "EVU5P 2005 Index",
+        "eidData": [],
+        "sequenceNumber": 121,
+        "fieldExceptions": [],
+        "fieldData": [
+          {
+            "fieldData": {
+              "date": "2015-06-26",
+              "PX_LAST": 32.7,
+              "PX_SETTLE": 32.7
+            }
+          },
+          {
+            "fieldData": {
+              "date": "2015-06-29",
+              "PX_LAST": 53.0,
+              "PX_SETTLE": 53.0
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

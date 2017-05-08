@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "load_type": "generic_refdata"
+  },
+  "result": [
+    [
+      {
+        "securityData": {
+          "security": "ARVAM3UY Index",
+          "eidData": [],
+          "fieldExceptions": [
+            {
+              "fieldExceptions": {
+                "fieldId": "30_DAY_YIELD",
+                "errorInfo": {
+                  "errorInfo": {
+                    "source": "308::bbdbl5",
+                    "code": 9,
+                    "category": "BAD_FLD",
+                    "message": "Field not applicable to product",
+                    "subcategory": "NOT_APPLICABLE_TO_REF_DATA"
+                  }
+                }
+              }
+            },
+            {
+              "fieldExceptions": {
+                "fieldId": "ACTIVELY_MANAGED",
+                "errorInfo": {
+                  "errorInfo": {
+                    "source": "308::bbdbl5",
+                    "code": 9,
+                    "category": "BAD_FLD",
+                    "message": "Field not applicable to product",
+                    "subcategory": "NOT_APPLICABLE_TO_REF_DATA"
+                  }
+                }
+              }
+            }
+          ],
+          "sequenceNumber": 20,
+          "fieldData": {
+            "fieldData": {
+              "INTERVAL_STD_DEV": 3.91,
+              "LAST_UPDATE_DT": "2015-08-28",
+              "LONG_COMP_NAME": "Central Bank of Argentina International Reserves M3 NSA YoY",
+              "NAME": "Central Bank of Argentina Inte",
+              "PX_LAST": 35.0
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "securityData": {
+          "security": "AUPPFMOM Index",
+          "eidData": [],
+          "fieldExceptions": [
+            {
+              "fieldExceptions": {
+                "fieldId": "VOLUME_TOTAL_CALL",
+                "errorInfo": {
+                  "errorInfo": {
+                    "source": "308::bbdbl10",
+                    "code": 9,
+                    "category": "BAD_FLD",
+                    "message": "Field not applicable to security",
+                    "subcategory": "NOT_APPLICABLE_TO_REF_DATA"
+                  }
+                }
+              }
+            },
+            {
+              "fieldExceptions": {
+                "fieldId": "VOLUME_TOTAL_PUT",
+                "errorInfo": {
+                  "errorInfo": {
+                    "source": "308::bbdbl10",
+                    "code": 9,
+                    "category": "BAD_FLD",
+                    "message": "Field not applicable to security",
+                    "subcategory": "NOT_APPLICABLE_TO_REF_DATA"
+                  }
+                }
+              }
+            }
+          ],
+          "sequenceNumber": 40,
+          "fieldData": {
+            "fieldData": {
+              "INTERVAL_STD_DEV": 0.5,
+              "LAST_UPDATE_DT": "2015-06-30",
+              "LONG_COMP_NAME": "Australia PPI Finished Goods",
+              "NAME": "Australia PPI Finished Goods",
+              "PX_LAST": 0.3
+            }
+          }
+        }
+      }
+    ]
+  ]
+}

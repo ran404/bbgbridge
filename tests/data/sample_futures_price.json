@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "load_type": "futures_price"
+  },
+  "result": [
+    {
+      "securityData": {
+        "security": "ESZ5 Index",
+        "eidData": [],
+        "sequenceNumber": 0,
+        "fieldExceptions": [],
+        "fieldData": [
+          {
+            "fieldData": {
+              "date": "2014-09-19",
+              "PX_LAST": 1975.75,
+              "PX_SETTLE": 1975.75
+            }
+          },
+          {
+            "fieldData": {
+              "date": "2014-09-22",
+              "PX_OPEN": 1960.0,
+              "PX_HIGH": 1960.0,
+              "PX_LOW": 1960.0,
+              "PX_LAST": 1958.25,
+              "PX_SETTLE": 1958.25,
+              "PX_VOLUME": 1.0,
+              "OPEN_INT": 1.0
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "load_type": "futures_refdata"
+  },
+  "result": [
+    [
+      {
+        "securityData": {
+          "security": "SPU6 Index",
+          "eidData": [],
+          "fieldExceptions": [
+            {
+              "fieldExceptions": {
+                "fieldId": "FUT_GEN_ROLL_DT",
+                "errorInfo": {
+                  "errorInfo": {
+                    "source": "207::bbdbd12",
+                    "code": 9,
+                    "category": "BAD_FLD",
+                    "message": "Field not applicable to security",
+                    "subcategory": "NOT_APPLICABLE_TO_REF_DATA"
+                  }
+                }
+              }
+            }
+          ],
+          "sequenceNumber": 10,
+          "fieldData": {
+            "fieldData": {
+              "NAME": "S&P 500 FUTURE    Sep16",
+              "SECURITY_DES": "SPU6 COMB",
+              "FUTURES_VALUATION_DATE": "2016-09-16",
+              "FUT_FIRST_TRADE_DT": "2014-09-19",
+              "LAST_TRADEABLE_DT": "2016-09-15",
+              "FUT_NOTICE_FIRST": "2016-09-15",
+              "FUT_DLV_DT_FIRST": "2016-09-16",
+              "FUT_DLV_DT_LAST": "2016-09-16",
+              "FUT_MONTH_YR": "SEP 16",
+              "FUT_CONTRACT_DT": "09/2016",
+              "FUT_ROLL_DT": "2016-09-15",
+              "CRNCY": "USD",
+              "ID_CUSIP": "SPU6",
+              "ID_MIC_PRIM_EXCH": "XCME",
+              "ID_EXCH_SYMBOL": "SP",
+              "ID_FULL_EXCHANGE_SYMBOL": "SPU6",
+              "ID_BB_GLOBAL": "BBG0074Q7WL1",
+              "FUT_CONT_SIZE": 250.0,
+              "FUT_TICK_SIZE": 0.1,
+              "FUT_VAL_PT": "250.00",
+              "FUT_TICK_VAL": 25.0,
+              "CASH_SETTLED": "Y",
+              "CALENDAR_CODE": "CE",
+              "FUT_TRADING_HRS": "22:00-21:00 & 13:30-20:15",
+              "FUT_INIT_SPEC_ML": 26125.0,
+              "FUT_SEC_SPEC_ML": 23750.0,
+              "FUT_INIT_HEDGE_ML": 23750.0,
+              "FUT_SEC_HEDGE_ML": 23750.0
+            }
+          }
+        }
+      },
+      {
+        "securityData": {
+          "security": "SPZ6 Index",
+          "eidData": [],
+          "fieldExceptions": [
+            {
+              "fieldExceptions": {
+                "fieldId": "FUT_GEN_ROLL_DT",
+                "errorInfo": {
+                  "errorInfo": {
+                    "source": "207::bbdbd12",
+                    "code": 9,
+                    "category": "BAD_FLD",
+                    "message": "Field not applicable to security",
+                    "subcategory": "NOT_APPLICABLE_TO_REF_DATA"
+                  }
+                }
+              }
+            }
+          ],
+          "sequenceNumber": 11,
+          "fieldData": {
+            "fieldData": {
+              "NAME": "S&P 500 FUTURE    Dec16",
+              "SECURITY_DES": "SPZ6 COMB",
+              "FUTURES_VALUATION_DATE": "2016-12-16",
+              "FUT_FIRST_TRADE_DT": "2011-12-16",
+              "LAST_TRADEABLE_DT": "2016-12-15",
+              "FUT_NOTICE_FIRST": "2016-12-15",
+              "FUT_DLV_DT_FIRST": "2016-12-16",
+              "FUT_DLV_DT_LAST": "2016-12-16",
+              "FUT_MONTH_YR": "DEC 16",
+              "FUT_CONTRACT_DT": "12/2016",
+              "FUT_ROLL_DT": "2016-12-15",
+              "CRNCY": "USD",
+              "ID_CUSIP": "SPZ6",
+              "ID_MIC_PRIM_EXCH": "XCME",
+              "ID_EXCH_SYMBOL": "SP",
+              "ID_FULL_EXCHANGE_SYMBOL": "SPZ6",
+              "ID_BB_GLOBAL": "BBG002BJBRP2",
+              "FUT_CONT_SIZE": 250.0,
+              "FUT_TICK_SIZE": 0.1,
+              "FUT_VAL_PT": "250.00",
+              "FUT_TICK_VAL": 25.0,
+              "CASH_SETTLED": "Y",
+              "CALENDAR_CODE": "CE",
+              "FUT_TRADING_HRS": "22:00-21:00 & 13:30-20:15",
+              "FUT_INIT_SPEC_ML": 26125.0,
+              "FUT_SEC_SPEC_ML": 23750.0,
+              "FUT_INIT_HEDGE_ML": 23750.0,
+              "FUT_SEC_HEDGE_ML": 23750.0
+            }
+          }
+        }
+      }
+    ]
+  ]
+}
